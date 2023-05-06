@@ -25,14 +25,14 @@ The replicated paper refers to https://github.com/jamesmullenbach/caml-mimic for
 After cloning the repository, one needs to add MIMIC-III data into the following folders:
 
 mimicdata
-|   D_ICD_DIAGNOSES.csv
-|   D_ICD_PROCEDURES.csv
-|   ICD9_descriptions (already in repo)
-└───mimic3/
-|   |   NOTEEVENTS.csv
-|   |   DIAGNOSES_ICD.csv
-|   |   PROCEDURES_ICD.csv
-|   |   *_hadm_ids.csv (already in repo)
+- |   D_ICD_DIAGNOSES.csv
+- |   D_ICD_PROCEDURES.csv
+- |   ICD9_descriptions (already in repo)
+- mimic3/
+- |   |   NOTEEVENTS.csv
+- |   |   DIAGNOSES_ICD.csv
+- |   |   PROCEDURES_ICD.csv
+- |   |   *_hadm_ids.csv (already in repo)
 
 Also file constants.py needs to be adapted. It contains the following key variables:
 - MIMIC_3_DIR - directory where output will be save - setting it to absolute path ending with .../HLAN_replication/Data/mimic-iii is recommended.
